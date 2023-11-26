@@ -4,6 +4,7 @@ export default function Player({ name, symbol }) {
   const [isEditing, setIsEditing] = useState(false);
 
   function handleEditClick() {
+    console.log("test commit");
     setIsEditing(true);
   }
 
