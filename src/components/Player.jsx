@@ -7,6 +7,7 @@ export default function Player({ name, symbol }) {
     console.log("test commit");
     console.log("test commit 2");
     console.log("test commit 3");
+    console.log("test commit 4");
     setIsEditing(true);
   }
 
