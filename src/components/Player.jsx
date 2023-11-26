@@ -6,6 +6,7 @@ export default function Player({ name, symbol }) {
   function handleEditClick() {
     console.log("test commit");
     console.log("test commit 2");
+    console.log("test commit 3");
     setIsEditing(true);
   }
 
