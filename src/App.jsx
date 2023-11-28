@@ -9,7 +9,6 @@ function deriveActivePlayer(gameTurns) {
   if (gameTurns.length > 0 && gameTurns[0].player === "X") {
     currentPlayer = "O";
   }
-  console.log('test');
   return currentPlayer;
 }
 
